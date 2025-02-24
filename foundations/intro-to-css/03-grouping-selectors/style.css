@@ -1,0 +1,18 @@
+.primary-btn,
+.secondary-btn {
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+  border: 2px solid #232222;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.secondary-btn {
+  background-color: #f2e317;
+  color: #000000;
+}
