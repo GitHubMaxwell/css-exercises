@@ -1,0 +1,31 @@
+p:nth-child(odd) {
+  background-color: #ff00004d;
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.text-md,
+.text-lg {
+  font-family: sans-serif;
+  color: #000000;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+#lineTwo {
+  font-family: serif;
+  font-size: 2.25rem;
+  color: #0000FF;
+}
+
+#fancyLine {
+  font-family: serif;
+  background-color: #00ff0080;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
