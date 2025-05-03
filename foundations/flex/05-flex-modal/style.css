@@ -16,10 +16,34 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
+  padding: 12px 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.header button {
+  flex: 0 0 auto;
 }
 
 .icon {
@@ -31,6 +55,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
 }
