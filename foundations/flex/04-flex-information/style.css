@@ -2,6 +2,30 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.icon-grid-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 32px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+ul.icon-grid {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 52px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.icon-grid li {
+  flex: 0 1 200px;
+  text-align: center;
+}
+
 img {
   width: 100px;
   height: 100px;
